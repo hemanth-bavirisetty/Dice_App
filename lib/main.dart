@@ -8,6 +8,14 @@ void main() {
   );
 }
 
+/**
+ * class - keyword to create a class
+ * GradientContainer - class name
+ * extends - keyword to inherit from another class
+ * StatelessWidget - parent class
+ *  super -  a special function used to forward the key of created class to parent class.
+ * we can use ':super(key: key)'after parameter list
+ */
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
   @override
